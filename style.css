@@ -1,0 +1,77 @@
+body {
+  background-color: #006C6D;
+  color: #861D00;
+  margin: 0px 2%;
+  padding: 0;
+  font-size: 22px;
+  font-family: 'Josefin Slab', serif;
+  font-weight: bold;
+}
+h1 {
+
+}
+
+.wrapper {
+  border-radius: 8px;
+  text-align: center;
+  padding: 40px;
+  margin: 25px auto;
+  max-width: 670px;
+  background-color: #EDB97C;
+
+}
+
+button {
+  font-family: 'Josefin Slab', serif;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: #006C6D ridge 2px;
+  color: #006C6D;
+  background-color: #F2D2B3;
+
+}
+
+button:hover{
+  border-color: #861D00;
+  color: #861D00;
+
+}
+
+button:active, button:focus{
+  background-color: #D1E7E9;
+}
+
+
+.hidden{
+  display: none;
+}
+
+#gen{
+  color: red;
+}
+
+img {
+  max-width: 260px;
+}
+
+.mess-box{
+  text-align: center;
+  margin: 0 auto;
+  min-height: 170px;
+  max-width: 520px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  margin: 6px;
+}
+
+
+#stopBut {
+  margin-top: 10px;
+}

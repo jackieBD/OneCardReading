@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel = "stylesheet" href = "style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@500;700&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>One Card Reading</title>
+    <link rel="shortcut icon" type="image/png" href="hangedman.png"/>
+
+  </head>
+  <body>
+    <section class = "wrapper">
+      <img id = "cardBack"
+       src = "https://i.imgur.com/wPBJQn7.png">
+
+
+      <img class = "cardImg hidden" id = "fool"
+       src = "https://gfx.tarot.com/images/site/decks/universal-waite/full_size/0.jpg">
+      <img class = "cardImg hidden" id = "magic"
+      src = "https://gfx.tarot.com/images/site/decks/universal-waite/full_size/1.jpg">
+      <img class = "cardImg hidden" id = "hp"
+      src = "https://gfx.tarot.com/images/site/decks/universal-waite/full_size/2.jpg">
+      <img class = "cardImg hidden" id = "empres"
+      src = "https://gfx.tarot.com/images/site/decks/universal-waite/full_size/3.jpg">
+      <img class = "cardImg hidden" id = "emprer"
+      src = "https://gfx.tarot.com/images/site/decks/universal-waite/full_size/4.jpg">
+      <img class = "cardImg hidden" id = "hiero"
+      src = "https://gfx.tarot.com/images/site/decks/universal-waite/full_size/5.jpg">
+      <img class = "cardImg hidden" id = "love"
+      src = "https://gfx.tarot.com/images/site/decks/universal-waite/full_size/6.jpg">
+      <img class = "cardImg hidden" id = "chariot"
+      src = "https://gfx.tarot.com/images/site/decks/universal-waite/full_size/7.jpg">
+
+
+      <img class = "cardImg hidden" id = "strength"
+       src = "https://gfx.tarot.com/images/site/decks/universal-waite/full_size/8.jpg">
+      <img class = "cardImg hidden" id = "hermit"
+      src = "https://gfx.tarot.com/images/site/decks/universal-waite/full_size/9.jpg">
+      <img class = "cardImg hidden" id = "wheel"
+      src = "https://gfx.tarot.com/images/site/decks/universal-waite/full_size/10.jpg">
+      <img class = "cardImg hidden" id = "just"
+      src = "https://gfx.tarot.com/images/site/decks/universal-waite/full_size/11.jpg">
+      <img class = "cardImg hidden" id = "hanged"
+      src = "https://gfx.tarot.com/images/site/decks/universal-waite/full_size/12.jpg">
+      <img class = "cardImg hidden" id = "death"
+      src = "https://gfx.tarot.com/images/site/decks/universal-waite/full_size/13.jpg">
+      <img class = "cardImg hidden" id = "temp"
+      src = "https://gfx.tarot.com/images/site/decks/universal-waite/full_size/14.jpg">
+
+
+      <img class = "cardImg hidden" id = "devil"
+      src = "https://gfx.tarot.com/images/site/decks/universal-waite/full_size/15.jpg">
+      <img class = "cardImg hidden" id = "tower"
+       src = "https://gfx.tarot.com/images/site/decks/universal-waite/full_size/16.jpg">
+      <img class = "cardImg hidden" id = "star"
+      src = "https://gfx.tarot.com/images/site/decks/universal-waite/full_size/17.jpg">
+      <img class = "cardImg hidden" id = "moon"
+      src = "https://gfx.tarot.com/images/site/decks/universal-waite/full_size/18.jpg">
+      <img class = "cardImg hidden" id = "sun"
+      src = "https://gfx.tarot.com/images/site/decks/universal-waite/full_size/19.jpg">
+      <img class = "cardImg hidden" id = "judge"
+      src = "https://gfx.tarot.com/images/site/decks/universal-waite/full_size/20.jpg">
+      <img class = "cardImg hidden" id = "world"
+      src = "https://gfx.tarot.com/images/site/decks/universal-waite/full_size/21.jpg">
+
+      <img class = "cardImg hidden" id = "wands1"
+      src = "https://gfx.tarot.com/images/site/decks/universal-waite/full_size/22.jpg">
+      <img class = "cardImg hidden" id = "wands2"
+       src = "https://gfx.tarot.com/images/site/decks/universal-waite/full_size/23.jpg">
+      <img class = "cardImg hidden" id = "wands3"
+      src = "https://gfx.tarot.com/images/site/decks/universal-waite/full_size/24.jpg">
+      <img class = "cardImg hidden" id = "wands4"
+      src = "https://gfx.tarot.com/images/site/decks/universal-waite/full_size/25.jpg">
+      <img class = "cardImg hidden" id = "wands5"
+      src = "https://gfx.tarot.com/images/site/decks/universal-waite/full_size/26.jpg">
+      <img class = "cardImg hidden" id = "wands6"
+      src = "https://gfx.tarot.com/images/site/decks/universal-waite/full_size/27.jpg">
+      <img class = "cardImg hidden" id = "wands7"
+      src = "https://gfx.tarot.com/images/site/decks/universal-waite/full_size/28.jpg">
+      <img class = "cardImg hidden" id = "wands8"
+      src = "https://gfx.tarot.com/images/site/decks/universal-waite/full_size/29.jpg">
+      <img class = "cardImg hidden" id = "wands9"
+       src = "https://gfx.tarot.com/images/site/decks/universal-waite/full_size/30.jpg">
+      <img class = "cardImg hidden" id = "wands10"
+      src = "https://gfx.tarot.com/images/site/decks/universal-waite/full_size/31.jpg">
+      <img class = "cardImg hidden" id = "wandsP"
+      src = "https://gfx.tarot.com/images/site/decks/universal-waite/full_size/32.jpg">
+      <img class = "cardImg hidden" id = "wandsN"
+      src = "https://gfx.tarot.com/images/site/decks/universal-waite/full_size/33.jpg">
+      <img class = "cardImg hidden" id = "wandsQ"
+      src = "https://gfx.tarot.com/images/site/decks/universal-waite/full_size/34.jpg">
+      <img class = "cardImg hidden" id = "wandsK"
+      src = "https://gfx.tarot.com/images/site/decks/universal-waite/full_size/35.jpg">
+
+      <img class = "cardImg hidden" id = "cups1"
+      src = "https://gfx.tarot.com/images/site/decks/universal-waite/full_size/36.jpg">
+      <img class = "cardImg hidden" id = "cups2"
+       src = "https://gfx.tarot.com/images/site/decks/universal-waite/full_size/37.jpg">
+      <img class = "cardImg hidden" id = "cups3"
+      src = "https://gfx.tarot.com/images/site/decks/universal-waite/full_size/38.jpg">
+      <img class = "cardImg hidden" id = "cups4"
+      src = "https://gfx.tarot.com/images/site/decks/universal-waite/full_size/39.jpg">
+      <img class = "cardImg hidden" id = "cups5"
+      src = "https://gfx.tarot.com/images/site/decks/universal-waite/full_size/40.jpg">
+      <img class = "cardImg hidden" id = "cups6"
+      src = "https://gfx.tarot.com/images/site/decks/universal-waite/full_size/41.jpg">
+      <img class = "cardImg hidden" id = "cups7"
+      src = "https://gfx.tarot.com/images/site/decks/universal-waite/full_size/42.jpg">
+      <img class = "cardImg hidden" id = "cups8"
+      src = "https://gfx.tarot.com/images/site/decks/universal-waite/full_size/43.jpg">
+      <img class = "cardImg hidden" id = "cups9"
+       src = "https://gfx.tarot.com/images/site/decks/universal-waite/full_size/44.jpg">
+      <img class = "cardImg hidden" id = "cups10"
+      src = "https://gfx.tarot.com/images/site/decks/universal-waite/full_size/45.jpg">
+      <img class = "cardImg hidden" id = "cupsP"
+      src = "https://gfx.tarot.com/images/site/decks/universal-waite/full_size/46.jpg">
+      <img class = "cardImg hidden" id = "cupsN"
+      src = "https://gfx.tarot.com/images/site/decks/universal-waite/full_size/47.jpg">
+      <img class = "cardImg hidden" id = "cupsQ"
+      src = "https://gfx.tarot.com/images/site/decks/universal-waite/full_size/48.jpg">
+      <img class = "cardImg hidden" id = "cupsK"
+      src = "https://gfx.tarot.com/images/site/decks/universal-waite/full_size/49.jpg">
+
+      <img class = "cardImg hidden" id = "swords1"
+      src = "https://gfx.tarot.com/images/site/decks/universal-waite/full_size/50.jpg">
+      <img class = "cardImg hidden" id = "swords2"
+       src = "https://gfx.tarot.com/images/site/decks/universal-waite/full_size/51.jpg">
+      <img class = "cardImg hidden" id = "swords3"
+      src = "https://gfx.tarot.com/images/site/decks/universal-waite/full_size/52.jpg">
+      <img class = "cardImg hidden" id = "swords4"
+      src = "https://gfx.tarot.com/images/site/decks/universal-waite/full_size/53.jpg">
+      <img class = "cardImg hidden" id = "swords5"
+      src = "https://gfx.tarot.com/images/site/decks/universal-waite/full_size/54.jpg">
+      <img class = "cardImg hidden" id = "swords6"
+      src = "https://gfx.tarot.com/images/site/decks/universal-waite/full_size/55.jpg">
+      <img class = "cardImg hidden" id = "swords7"
+      src = "https://gfx.tarot.com/images/site/decks/universal-waite/full_size/56.jpg">
+      <img class = "cardImg hidden" id = "swords8"
+      src = "https://gfx.tarot.com/images/site/decks/universal-waite/full_size/57.jpg">
+      <img class = "cardImg hidden" id = "swords9"
+       src = "https://gfx.tarot.com/images/site/decks/universal-waite/full_size/58.jpg">
+      <img class = "cardImg hidden" id = "swords10"
+      src = "https://gfx.tarot.com/images/site/decks/universal-waite/full_size/59.jpg">
+      <img class = "cardImg hidden" id = "swordsP"
+      src = "https://gfx.tarot.com/images/site/decks/universal-waite/full_size/60.jpg">
+      <img class = "cardImg hidden" id = "swordsN"
+      src = "https://gfx.tarot.com/images/site/decks/universal-waite/full_size/61.jpg">
+      <img class = "cardImg hidden" id = "swordsQ"
+      src = "https://gfx.tarot.com/images/site/decks/universal-waite/full_size/62.jpg">
+      <img class = "cardImg hidden" id = "swordsK"
+      src = "https://gfx.tarot.com/images/site/decks/universal-waite/full_size/63.jpg">
+
+      <img class = "cardImg hidden" id = "coins1"
+      src = "https://gfx.tarot.com/images/site/decks/universal-waite/full_size/64.jpg">
+      <img class = "cardImg hidden" id = "coins2"
+       src = "https://gfx.tarot.com/images/site/decks/universal-waite/full_size/65.jpg">
+      <img class = "cardImg hidden" id = "coins3"
+      src = "https://gfx.tarot.com/images/site/decks/universal-waite/full_size/66.jpg">
+      <img class = "cardImg hidden" id = "coins4"
+      src = "https://gfx.tarot.com/images/site/decks/universal-waite/full_size/67.jpg">
+      <img class = "cardImg hidden" id = "coins5"
+      src = "https://gfx.tarot.com/images/site/decks/universal-waite/full_size/68.jpg">
+      <img class = "cardImg hidden" id = "coins6"
+      src = "https://gfx.tarot.com/images/site/decks/universal-waite/full_size/69.jpg">
+      <img class = "cardImg hidden" id = "coins7"
+      src = "https://gfx.tarot.com/images/site/decks/universal-waite/full_size/70.jpg">
+      <img class = "cardImg hidden" id = "coins8"
+      src = "https://gfx.tarot.com/images/site/decks/universal-waite/full_size/71.jpg">
+      <img class = "cardImg hidden" id = "coins9"
+       src = "https://gfx.tarot.com/images/site/decks/universal-waite/full_size/72.jpg">
+      <img class = "cardImg hidden" id = "coins10"
+      src = "https://gfx.tarot.com/images/site/decks/universal-waite/full_size/73.jpg">
+      <img class = "cardImg hidden" id = "coinsP"
+      src = "https://gfx.tarot.com/images/site/decks/universal-waite/full_size/74.jpg">
+      <img class = "cardImg hidden" id = "coinsN"
+      src = "https://gfx.tarot.com/images/site/decks/universal-waite/full_size/75.jpg">
+      <img class = "cardImg hidden" id = "coinsQ"
+      src = "https://gfx.tarot.com/images/site/decks/universal-waite/full_size/76.jpg">
+      <img class = "cardImg hidden" id = "coinsK"
+      src = "https://gfx.tarot.com/images/site/decks/universal-waite/full_size/77.jpg">
+
+
+      <img class = "cardImg hidden" id = "wc1"
+       src = "https://i.imgur.com/VIoADXj.png">
+      <img class = "cardImg hidden" id = "wc2"
+      src = "https://i.imgur.com/HXVbN9B.png">
+      <img class = "cardImg hidden" id = "wc3"
+      src = "https://i.imgur.com/RLtKbd8.png">
+      <img class = "cardImg hidden" id = "wc4"
+      src = "https://i.imgur.com/TjpB5V6.png">
+      <img class = "cardImg hidden" id = "wc5"
+      src = "https://i.imgur.com/taFkRHQ.png">
+      <img class = "cardImg hidden" id = "wc6"
+      src = "https://i.imgur.com/VeTfwTK.png">
+      <img class = "cardImg hidden" id = "wc7"
+      src = "https://i.imgur.com/d2BNfCV.png">
+      <img class = "cardImg hidden" id = "wc8"
+      src = "https://i.imgur.com/JnonfMg.png">
+
+
+      <img class = "cardImg hidden" id = "wc9"
+       src = "https://i.imgur.com/G96Jctl.png">
+      <img class = "cardImg hidden" id = "wc10"
+      src = "https://i.imgur.com/X0Q2Lg9.png">
+      <img class = "cardImg hidden" id = "wc11"
+      src = "https://i.imgur.com/Mtt1Ujn.png">
+      <img class = "cardImg hidden" id = "wc12"
+      src = "https://i.imgur.com/3bLbVky.png">
+      <img class = "cardImg hidden" id = "wc13"
+      src = "https://i.imgur.com/VNnhqqa.png">
+      <img class = "cardImg hidden" id = "wc14"
+      src = "https://i.imgur.com/3lYPylf.png">
+      <img class = "cardImg hidden" id = "wc15"
+      src = "https://i.imgur.com/rmqRLxM.png">
+
+
+      <img class = "cardImg hidden" id = "wc16"
+      src = "https://i.imgur.com/euOTCK1.png">
+      <img class = "cardImg hidden" id = "wc17"
+       src = "https://i.imgur.com/vcKPKZa.png">
+      <img class = "cardImg hidden" id = "wc18"
+      src = "https://i.imgur.com/EfjPM02.png">
+      <img class = "cardImg hidden" id = "wc19"
+      src = "https://i.imgur.com/z3UpcCC.png">
+      <img class = "cardImg hidden" id = "wc20"
+      src = "https://i.imgur.com/ggiKB0p.png">
+      <img class = "cardImg hidden" id = "wc21"
+      src = "https://i.imgur.com/ttjnh9o.png">
+      <img class = "cardImg hidden" id = "wc22"
+      src = "https://i.imgur.com/Ckd8OJL.png">
+
+
+
+
+<br><div class = "mess-box">
+    <p id = "message">Welcome to One Card Reading! <br>This is a tarot deck.
+      Please draw one card to recieve a message. You don't have to know anything about tarot--
+      You can interpret the card you recieve however it strikes you!
+</p>
+<p id = "messageBottom"></p>
+
+</div>
+    <button id ="genBut">Draw a Card</button>
+    <br>
+    <button id = "stopBut" class = "hidden">Put Cards Up</button>
+
+  </section>
+  <script src = "app.js"></script>
+  <script src = "variables.js"></script>
+  </body>
+</html>

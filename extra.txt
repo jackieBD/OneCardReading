@@ -1,0 +1,123 @@
+<img class = "cardImg hidden" id = "fool"
+ src = "https://gfx.tarot.com/images/site/decks/universal-waite/full_size/0.jpg">
+<img class = "cardImg hidden" id = "magic"
+src = "https://gfx.tarot.com/images/site/decks/universal-waite/full_size/1.jpg">
+<img class = "cardImg hidden" id = "hp"
+src = "https://gfx.tarot.com/images/site/decks/universal-waite/full_size/2.jpg">
+<img class = "cardImg hidden" id = "empres"
+src = "https://gfx.tarot.com/images/site/decks/universal-waite/full_size/3.jpg">
+<img class = "cardImg hidden" id = "emprer"
+src = "https://gfx.tarot.com/images/site/decks/universal-waite/full_size/4.jpg">
+<img class = "cardImg hidden" id = "hiero"
+src = "https://gfx.tarot.com/images/site/decks/universal-waite/full_size/5.jpg">
+<img class = "cardImg hidden" id = "love"
+src = "https://gfx.tarot.com/images/site/decks/universal-waite/full_size/6.jpg">
+<img class = "cardImg hidden" id = "chariot"
+src = "https://gfx.tarot.com/images/site/decks/universal-waite/full_size/7.jpg">
+
+
+
+const fool0 = document.getElementById('fool')
+const mag1 = document.getElementById('magic')
+const hp2 = document.getElementById('hp')
+const empres3 = document.getElementById('empres')
+const emprer4 = document.getElementById('emprer')
+const hiero5 = document.getElementById('hiero')
+const love6 = document.getElementById('love')
+const char7 = document.getElementById('chariot')
+
+
+
+
+
+
+//Here is a paragraph where I write about all the important things
+//in my life such as Juzou "Mudman" Honenuki. He is really cool. I
+//think my favorite thing about Mudman is either his cute smile or how
+//much he loves his friends. In this essay I will... describe in detail
+//how awesome Mudman is. He is very powerful and will make a great hero
+//one day.
+
+
+
+function pickCard(){
+switch (card){
+  case 0:
+    fool0.classList.remove("hidden")
+    console.log("fool")
+    break
+  case 1:
+    mag1.classList.remove("hidden")
+    console.log("magic")
+    break
+  case 2:
+    hp2.classList.remove("hidden")
+    console.log("hp")
+    break
+  case 3:
+    empres3.classList.remove("hidden")
+    console.log("empres")
+    break
+  case 4:
+    emprer4.classList.remove("hidden")
+    console.log("emprer")
+    break
+  case 5:
+    hiero5.classList.remove("hidden")
+    console.log("hiero")
+    break
+  case 6:
+    love6.classList.remove("hidden")
+    console.log("loverz")
+    break
+  case 7:
+    char7.classList.remove("hidden")
+    console.log("silver chariot")
+    break
+  case 8:
+    strength8.classList.remove("hidden")
+  case 9:
+    hermit9.classList.remove("hidden")
+    break
+  case 10:
+    wheel10.classList.remove("hidden")
+    break
+  case 11:
+    just11.classList.remove("hidden")
+    break
+  case 12:
+    temp12.classList.remove("hidden")
+    break
+  case 13:
+    death13.classList.remove("hidden")
+    break
+  case 14:
+    hanged14.classList.remove("hidden")
+    break
+  case 15:
+    devil15.classList.remove("hidden")
+    break
+  case 16:
+    tower16.classList.remove("hidden")
+    break
+  case 17:
+    star17.classList.remove("hidden")
+    break
+  case 18:
+    sun18.classList.remove("hidden")
+    break
+  case 19:
+    moon19.classList.remove("hidden")
+    break
+  case 20:
+    judge20.classList.remove("hidden")
+    break
+  case 21:
+    world21.classList.remove("hidden")
+    break
+
+  default:
+    console.log("draw again!!!")
+
+  }
+}
